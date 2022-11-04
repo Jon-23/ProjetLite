@@ -116,7 +116,9 @@ class InterfacePrive():
         print(clear_chaine)
         print("Page solde")
         print(f"Solde actuel: {self.Dao.get_solde(self.client_id)}")
+        input()
         self.page_acceuil()
+
 
     def page_deposer_argent(self):
         print("Page deposer de l'argent")

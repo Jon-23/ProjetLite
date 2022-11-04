@@ -103,6 +103,8 @@ class InterfacePrive():
         print(clear_chaine)
         if saisie == 'deconnexion':
             self.deconnexion()
+        elif saisie == 'consulter les operations':
+            self.page_consulter_les_operations()
         elif saisie == 'consulter le solde':
             self.page_consulter_le_solde()
         elif saisie == "deposer de l'argent":
